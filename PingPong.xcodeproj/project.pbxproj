@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F48E64171BC85C05007A2BF3 /* p1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F48E64161BC85C05007A2BF3 /* p1.mp3 */; settings = {ASSET_TAGS = (); }; };
-		F48E64191BC85C09007A2BF3 /* p2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F48E64181BC85C09007A2BF3 /* p2.mp3 */; settings = {ASSET_TAGS = (); }; };
 		F48E80F31BC59FC100AB2DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E80F21BC59FC100AB2DD4 /* AppDelegate.swift */; };
 		F48E80F51BC59FC100AB2DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E80F41BC59FC100AB2DD4 /* ViewController.swift */; };
 		F48E80F81BC59FC100AB2DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48E80F61BC59FC100AB2DD4 /* Main.storyboard */; };
 		F48E80FA1BC59FC100AB2DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48E80F91BC59FC100AB2DD4 /* Assets.xcassets */; };
 		F48E80FD1BC59FC100AB2DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48E80FB1BC59FC100AB2DD4 /* LaunchScreen.storyboard */; };
+		F49B69A61BCD655900900A24 /* p1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F49B69A41BCD655900900A24 /* p1.mp3 */; settings = {ASSET_TAGS = (); }; };
+		F49B69A71BCD655900900A24 /* p2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F49B69A51BCD655900900A24 /* p2.mp3 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F48E64161BC85C05007A2BF3 /* p1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = p1.mp3; path = ../../p1.mp3; sourceTree = "<group>"; };
-		F48E64181BC85C09007A2BF3 /* p2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = p2.mp3; path = ../../p2.mp3; sourceTree = "<group>"; };
 		F48E80EF1BC59FC100AB2DD4 /* PingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48E80F21BC59FC100AB2DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F48E80F41BC59FC100AB2DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +24,8 @@
 		F48E80F91BC59FC100AB2DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F48E80FC1BC59FC100AB2DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48E80FE1BC59FC100AB2DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49B69A41BCD655900900A24 /* p1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p1.mp3; sourceTree = "<group>"; };
+		F49B69A51BCD655900900A24 /* p2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +42,8 @@
 		F48E64151BC85BE8007A2BF3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				F48E64181BC85C09007A2BF3 /* p2.mp3 */,
-				F48E64161BC85C05007A2BF3 /* p1.mp3 */,
+				F49B69A41BCD655900900A24 /* p1.mp3 */,
+				F49B69A51BCD655900900A24 /* p2.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48E64191BC85C09007A2BF3 /* p2.mp3 in Resources */,
+				F49B69A71BCD655900900A24 /* p2.mp3 in Resources */,
 				F48E80FD1BC59FC100AB2DD4 /* LaunchScreen.storyboard in Resources */,
-				F48E64171BC85C05007A2BF3 /* p1.mp3 in Resources */,
+				F49B69A61BCD655900900A24 /* p1.mp3 in Resources */,
 				F48E80FA1BC59FC100AB2DD4 /* Assets.xcassets in Resources */,
 				F48E80F81BC59FC100AB2DD4 /* Main.storyboard in Resources */,
 			);
