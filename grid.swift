@@ -1,6 +1,6 @@
   
 class Gallery2CollectionViewController: UICollectionViewController {
-    // MARK: UICollectionViewDataSource
+    // MARK: UICollectionView
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
