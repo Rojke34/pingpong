@@ -1,5 +1,27 @@
-  
+
+let reuseIdentifierIdPhoto = "idPhoto"  
+
 class Gallery2CollectionViewController: UICollectionViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+      
+        self.preparePhotoGrid()
+        
+    }
+    
+    func preparePhotoGrid(){
+        let layout = UICollectionViewFlowLayout()
+        let itemWidth = (view.bounds.size.width - 2) / 3
+        layout.itemSize = CGSize(width: itemWidth, height: itemWidth)
+        layout.minimumLineSpacing = 1.0
+        layout.minimumInteritemSpacing = 1.0
+        layout.footerReferenceSize = CGSize(width: collectionView!.bounds.size.width, height: 60.0)
+        collectionView!.collectionViewLayout = layout
+        collectionView!.registerClass(GalleryCollectionViewCell.classForCoder(), forCellWithReuseIdentifier: reuseIdentifierIdPhoto)
+    }
+
+
     // MARK: UICollectionView
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
